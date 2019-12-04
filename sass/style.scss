@@ -1,0 +1,109 @@
+.container-fluid{
+    max-width: 75%;
+    margin:auto;
+    
+
+    .first-col{
+        background:#df0521;
+        padding:1rem;
+        width:1rem !important;
+
+        .social{
+            padding-top:2rem;
+            color:white;
+        }
+    }
+
+    .main{
+        // width:100% !important;
+        
+        .side{
+            background:#1a1515;
+            padding:0 !important;
+        }
+        .main-bar{
+            background: lightgrey;
+            padding:2rem 0 0 0;
+            
+            .menu-bar{
+                text-align: center;
+                
+                .menu-item:nth-of-type(odd){
+                    background: green;
+                    padding:1rem 0;
+                }
+                .menu-item:nth-of-type(even){
+                    
+                    padding:1rem 0;
+                }
+
+                a .language{
+                    padding:0.5rem;
+                    border: solid white 1px;
+                    text-decoration: none;
+                }
+                
+            }
+            .whole-page{
+                min-height: 100vh;
+                
+            }
+            .search-icon-sq{
+                background: green;
+            }
+            .fa-search{
+                text-align: center;
+                padding-top: 1rem;
+                padding-left: 1rem;
+                font-size: 2rem;
+                color:white;
+                
+            }
+            
+        }
+    }
+    .second-sec{
+        padding-left: 1rem !important;
+
+    }
+    .third-sec{
+        padding-left: 1rem !important; 
+
+        
+
+        .un-titre-box{
+            background: green;
+            padding:1rem 0;
+        }
+        
+         .un-titre-boxes:nth-of-type(even){
+            background: green;
+            padding:1rem 0;
+
+        }
+
+        .un-titre-boxes:nth-of-type(odd){
+            background: greenyellow;
+            padding: 1rem 0;
+        }
+
+    }
+    h2{
+        padding-left: 1rem !important;
+    }
+        
+}
+
+
+
+
+
+@media screen and (max-width: 767px){
+    .menu-row{
+        display:none !important;
+    }
+    .search-icon-sq{
+        display:none !important;
+    }
+}
+
